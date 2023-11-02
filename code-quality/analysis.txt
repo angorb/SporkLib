@@ -1,0 +1,512 @@
+lib/SparkFinder.php:177 PhanUndeclaredProperty Reference to undeclared property \SparkFinder->_tableRecord
+lib/SparkFriendFinder.php:3 PhanUnreferencedUseNormal Possibly zero references to use statement for classlike/namespace Fail (\SparkLib\Fail)
+lib/SparkFriendFinder.php:110 PhanSyntaxReturnValueInVoid Syntax error: void function rewind() must not return a value (did you mean "return;" instead of "return false;"?)
+lib/SparkFriendFinder.php:115 PhanUndeclaredClassMethod Call to method getId from undeclared class \SomeSaurus
+lib/SparkFriendFinder.php:159 PhanUndeclaredClassMethod Call to method getInstance from undeclared class \SparkDBI
+lib/SparkFriendFinder.php:184 PhanUndeclaredClassMethod Call to method getInstance from undeclared class \SparkDBI
+lib/SparkFriendFinder.php:211 PhanSyntaxReturnValueInVoid Syntax error: void function next() must not return a value (did you mean "return;" instead of "return $this->_sparkfinder->next();"?)
+lib/SparkFriendFinder.php:219 PhanUndeclaredTypeReturnType Return type of current() is undeclared type \SomeSaurus
+lib/SparkFriendFinder.php:222 PhanTypeMismatchReturnProbablyReal Returning false of type false but current() is declared to return \SomeSaurus (no real type) (the inferred real return type has nothing in common with the declared phpdoc return type)
+lib/SparkFriendFinder.php:238 PhanUndeclaredTypeReturnType Return type of getNext() is undeclared type \SomeSaurus
+lib/SparkFriendFinder.php:393 PhanTypeMismatchReturn Returning $this->current() of type \SomeSaurus but getOne() is declared to return \SparkRecord
+lib/SparkFriendFinder.php:394 PhanTypeMismatchReturn Returning $this->find()->current() of type \SomeSaurus but getOne() is declared to return \SparkRecord
+lib/SparkFriendFinder.php:425 PhanPossiblyUndeclaredVariable Variable $our_key is possibly undeclared
+lib/SparkFriendFinder.php:425 PhanPossiblyUndeclaredVariable Variable $their_key is possibly undeclared
+lib/SparkFriendFinder.php:453 PhanPossiblyUndeclaredVariable Variable $our_key is possibly undeclared
+lib/SparkFriendFinder.php:453 PhanPossiblyUndeclaredVariable Variable $their_key is possibly undeclared
+lib/SparkFriendFinder.php:677 PhanUndeclaredConstantOfClass Reference to undeclared class constant \SparkFriendFinder::RAND
+lib/SparkFriendFinder.php:693 PhanUndeclaredConstantOfClass Reference to undeclared class constant \SparkFriendFinder::RAND
+lib/SparkLib/Application.php:5 PhanUnreferencedUseNormal Possibly zero references to use statement for classlike/namespace Controller (\SparkLib\Application\Controller)
+lib/SparkLib/Application.php:7 PhanUnreferencedUseNormal Possibly zero references to use statement for classlike/namespace Redirect (\SparkLib\Application\Redirect)
+lib/SparkLib/Application.php:10 PhanUnreferencedUseNormal Possibly zero references to use statement for classlike/namespace RouteMap (\SparkLib\Application\RouteMap)
+lib/SparkLib/Application.php:14 PhanUnreferencedUseNormal Possibly zero references to use statement for classlike/namespace Fail (\SparkLib\Fail)
+lib/SparkLib/Application.php:15 PhanUnreferencedUseNormal Possibly zero references to use statement for classlike/namespace User (\SparkLib\User)
+lib/SparkLib/Application.php:236 PhanPossiblyUndeclaredVariable Variable $action is possibly undeclared
+lib/SparkLib/Application.php:384 PhanTypeMismatchArgumentProbablyReal Argument 1 ($template) is null of type null but \SparkLib\Template::__construct() takes string (no real type) defined at lib/SparkLib/Template.php:70 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/Application.php:390 PhanUndeclaredProperty Reference to undeclared property \SparkLib\Application->_templateDir
+lib/SparkLib/Application.php:392 PhanUndeclaredProperty Reference to undeclared property \SparkLib\Application->_templateDir
+lib/SparkLib/Application.php:400 PhanUndeclaredConstant Reference to undeclared constant \LIBDIR. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/Application.php:422 PhanUndeclaredConstant Reference to undeclared constant \BASEDIR. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/Application/Controller.php:6 PhanUnreferencedUseNormal Possibly zero references to use statement for classlike/namespace Redirect (\SparkLib\Application\Redirect)
+lib/SparkLib/Application/Controller.php:90 PhanUndeclaredClassMethod Call to method mapType from undeclared class \SparkLib\Application\SparkLib\Application\Request (Did you mean class \SparkLib\Application\Request)
+lib/SparkLib/Application/Controller.php:94 PhanUndeclaredProperty Reference to undeclared property \SparkLib\Application\Controller->_response
+lib/SparkLib/Application/Controller.php:97 PhanUndeclaredProperty Reference to undeclared property \SparkLib\Application\Controller->_response
+lib/SparkLib/Application/Controller.php:135 PhanTypeMismatchArgumentInternalReal Argument 1 ($image) is $result of type resource but \imagepng() takes \GdImage
+lib/SparkLib/Application/Controller.php:184 PhanTypeMismatchReturn Returning $this->_app->req() of type \SparkLib\Application\Request but req() is declared to return \SparkLib\Application\SparkLib\Application\Request
+lib/SparkLib/Application/Controller.php:184 PhanUndeclaredTypeReturnType Return type of req() is undeclared type \SparkLib\Application\SparkLib\Application\Request (Did you mean class \SparkLib\Application\Request)
+lib/SparkLib/Application/Controller.php:220 PhanUndeclaredTypeParameter Parameter $template has undeclared type \SparkLib\Application\optional
+lib/SparkLib/Application/Controller.php:236 PhanTypeMismatchArgumentProbablyReal Argument 1 ($template) is null of type null but \SparkLib\Template::__construct() takes string (no real type) defined at lib/SparkLib/Template.php:70 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/Application/Controller.php:283 PhanTypeMismatchArgumentProbablyReal Argument 1 ($template) is null of type null but \SparkLib\Template::__construct() takes string (no real type) defined at lib/SparkLib/Template.php:70 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/Application/Controller.php:318 PhanUndeclaredTypeReturnType Return type of reroute() is undeclared type \SparkLib\Application\SparkLib\Application\Action (Did you mean interface \SparkLib\Application\Action)
+lib/SparkLib/Application/Controller.php:370 PhanUndeclaredProperty Reference to undeclared property \SparkLib\Application\Controller->_response (Did you mean $responses)
+lib/SparkLib/Application/Controller.php:373 PhanUndeclaredProperty Reference to undeclared property \SparkLib\Application\Controller->_response (Did you mean $responses)
+lib/SparkLib/Application/Controller.php:375 PhanUndeclaredProperty Reference to undeclared property \SparkLib\Application\Controller->_response (Did you mean $responses)
+lib/SparkLib/Application/Controller.php:377 PhanUndeclaredProperty Reference to undeclared property \SparkLib\Application\Controller->_response (Did you mean $responses)
+lib/SparkLib/Application/Controller.php:382 PhanUndeclaredProperty Reference to undeclared property \SparkLib\Application\Controller->_response
+lib/SparkLib/Application/Controller.php:395 PhanUndeclaredClassMethod Call to method compact from undeclared class \SparkLib\Application\SparkLib\Application\Request (Did you mean class \SparkLib\Application\Request)
+lib/SparkLib/Application/Controller.php:432 PhanUndeclaredClassMethod Call to method __construct from undeclared class \SparkLib\Application\UnexpectedValueException (Did you mean class \UnexpectedValueException)
+lib/SparkLib/Application/Controller.php:440 PhanUndeclaredClassMethod Call to method mapType from undeclared class \SparkLib\Application\SparkLib\Application\Request (Did you mean class \SparkLib\Application\Request)
+lib/SparkLib/Application/Controller.php:445 PhanUndeclaredClassMethod Call to method getArray from undeclared class \SparkLib\Application\SparkLib\Application\Request (Did you mean class \SparkLib\Application\Request)
+lib/SparkLib/Application/Controller.php:468 PhanUndeclaredClassCatch Catching undeclared class \SparkLib\Application\SparkRecordException (Did you mean class \SparkRecordException)
+lib/SparkLib/Application/Controller.php:488 PhanUndeclaredClassMethod Call to method __construct from undeclared class \SparkLib\Application\UnexpectedValueException (Did you mean class \UnexpectedValueException)
+lib/SparkLib/Application/Controller.php:491 PhanUndeclaredClassMethod Call to method getArray from undeclared class \SparkLib\Application\SparkLib\Application\Request (Did you mean class \SparkLib\Application\Request)
+lib/SparkLib/Application/Controller.php:493 PhanUndeclaredClassProperty Reference to instance property id from undeclared class \SparkLib\Application\SparkLib\Application\Request (Did you mean class \SparkLib\Application\Request)
+lib/SparkLib/Application/Controller.php:534 PhanUndeclaredClassMethod Call to method mapType from undeclared class \SparkLib\Application\SparkLib\Application\Request (Did you mean class \SparkLib\Application\Request)
+lib/SparkLib/Application/Controller.php:548 PhanUndeclaredClassCatch Catching undeclared class \SparkLib\Application\SparkRecordException (Did you mean class \SparkRecordException)
+lib/SparkLib/Application/ControllerRole/AjaxHandler.php:6 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\AjaxHandler::req
+lib/SparkLib/Application/ControllerRole/AjaxHandler.php:7 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\AjaxHandler::setLayout
+lib/SparkLib/Application/ControllerRole/BlogPostHandler.php:19 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\BlogPostHandler::req
+lib/SparkLib/Application/ControllerRole/BlogPostHandler.php:21 PhanUndeclaredClassMethod Call to method getById from undeclared class \BlogPostSaurus
+lib/SparkLib/Application/ControllerRole/BlogPostHandler.php:21 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\BlogPostHandler::req
+lib/SparkLib/Application/ControllerRole/BlogPostHandler.php:24 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\BlogPostHandler::reroute
+lib/SparkLib/Application/ControllerRole/BlogPostHandler.php:27 PhanUndeclaredClassConstant Reference to constant COMMERCE_BLOG from undeclared class \BlogSaurus
+lib/SparkLib/Application/ControllerRole/BlogPostHandler.php:34 PhanUndeclaredClassMethod Call to method __construct from undeclared class \Spark\Feed\Comments
+lib/SparkLib/Application/ControllerRole/BlogPostHandler.php:38 PhanUndeclaredClassConstant Reference to constant GET_ALL from undeclared class \Spark\Feed\Comments
+lib/SparkLib/Application/ControllerRole/BlogPostHandler.php:42 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\BlogPostHandler::respondTo
+lib/SparkLib/Application/ControllerRole/BlogPostHandler.php:43 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\BlogPostHandler::respondTo
+lib/SparkLib/Application/ControllerRole/BlogPostHandler.php:44 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\BlogPostHandler::respondTo
+lib/SparkLib/Application/ControllerRole/BlogPostHandler.php:47 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\BlogPostHandler::respondTo
+lib/SparkLib/Application/ControllerRole/BlogPostHandler.php:48 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\BlogPostHandler::linkAction
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:11 PhanUnreferencedUseNormal Possibly zero references to use statement for classlike/namespace CommentBlacklistSaurus (\CommentBlacklistSaurus)
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:36 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:37 PhanUndeclaredClassMethod Call to method __construct from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:37 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:39 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::respondTo
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:40 PhanUndeclaredClassMethod Call to method record from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:41 PhanUndeclaredClassMethod Call to method getHtml from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:45 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::respondTo
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:46 PhanUndeclaredClassMethod Call to method url from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:58 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::app
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:59 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:63 PhanUndeclaredClassMethod Call to method __construct from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:63 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:65 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::app
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:68 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::respondTo
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:69 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::template
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:70 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::layout
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:71 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::layout
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:83 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::app
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:84 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:89 PhanUndeclaredClassMethod Call to method __construct from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:89 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:91 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::app
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:94 PhanUndeclaredClassProperty Reference to instance property customer_id from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:97 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::app
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:99 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::respondTo
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:100 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::template
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:101 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::layout
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:102 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::layout
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:116 PhanUndeclaredClassMethod Call to method getInstance from undeclared class \MongoDbClient
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:120 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:142 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:144 PhanUndeclaredClassMethod Call to method __construct from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:145 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:146 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:150 PhanUndeclaredClassMethod Call to method __construct from undeclared class \MongoDB\BSON\UTCDateTime (Did you mean to configure a stub with https://github.com/phan/phan/wiki/How-To-Use-Stubs#internal-stubs or to enable the extension providing the class.)
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:151 PhanUndeclaredClassMethod Call to method __construct from undeclared class \MongoDB\BSON\UTCDateTime (Did you mean to configure a stub with https://github.com/phan/phan/wiki/How-To-Use-Stubs#internal-stubs or to enable the extension providing the class.)
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:157 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:165 PhanUndeclaredClassMethod Call to method parent from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:166 PhanUndeclaredClassProperty Reference to instance property visible from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:170 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:176 PhanUndeclaredClassMethod Call to method getRecord from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:180 PhanUndeclaredClassMethod Call to method id from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:180 PhanUndeclaredClassMethod Call to method log from undeclared class \LogSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:186 PhanUndeclaredClassMethod Call to method queueNotification from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:189 PhanUndeclaredClassMethod Call to method log from undeclared class \LogSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:189 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:194 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::respondTo
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:198 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::app
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:199 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:200 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:206 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:207 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:218 PhanUndeclaredClassMethod Call to method id from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:226 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::respondTo
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:228 PhanUndeclaredClassMethod Call to method url from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:229 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::template
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:230 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::layout
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:231 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::layout
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:242 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::app
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:243 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:253 PhanUndeclaredClassMethod Call to method getInstance from undeclared class \MongoDbClient
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:254 PhanUndeclaredClassMethod Call to method __construct from undeclared class \MongoDB\BSON\ObjectId (Did you mean to configure a stub with https://github.com/phan/phan/wiki/How-To-Use-Stubs#internal-stubs or to enable the extension providing the class.)
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:254 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:256 PhanUndeclaredClassMethod Call to method log from undeclared class \LogSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:256 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:259 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::respondTo
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:271 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::app
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:272 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:282 PhanUndeclaredClassMethod Call to method __construct from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:282 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:289 PhanUndeclaredClassMethod Call to method getInstance from undeclared class \MongoDbClient
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:292 PhanUndeclaredClassProperty Reference to instance property customer_id from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:299 PhanUndeclaredClassMethod Call to method log from undeclared class \LogSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:299 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:302 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::respondTo
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:312 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::app
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:313 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:324 PhanUndeclaredClassMethod Call to method __construct from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:324 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:325 PhanUndeclaredClassProperty Reference to instance property Customer from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:333 PhanPossiblyUndeclaredVariable Variable $ban_customer is possibly undeclared
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:334 PhanPossiblyUndeclaredVariable Variable $ban_customer is possibly undeclared
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:335 PhanPossiblyUndeclaredVariable Variable $ban_customer is possibly undeclared
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:338 PhanPossiblyUndeclaredVariable Variable $ban_customer is possibly undeclared
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:340 PhanUndeclaredClassMethod Call to method log from undeclared class \LogSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:340 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:343 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::respondTo
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:360 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::app
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:361 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:371 PhanUndeclaredClassMethod Call to method getInstance from undeclared class \MongoDbClient
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:372 PhanUndeclaredClassMethod Call to method __construct from undeclared class \MongoDB\BSON\ObjectId (Did you mean to configure a stub with https://github.com/phan/phan/wiki/How-To-Use-Stubs#internal-stubs or to enable the extension providing the class.)
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:372 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:374 PhanUndeclaredClassMethod Call to method log from undeclared class \LogSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:374 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:377 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::respondTo
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:389 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::app
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:395 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:407 PhanUndeclaredClassMethod Call to method getInstance from undeclared class \MongoDbClient
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:409 PhanUndeclaredClassMethod Call to method __construct from undeclared class \MongoDB\BSON\ObjectId (Did you mean to configure a stub with https://github.com/phan/phan/wiki/How-To-Use-Stubs#internal-stubs or to enable the extension providing the class.)
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:409 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:414 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::respondTo
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:425 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::app
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:431 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:443 PhanUndeclaredClassMethod Call to method getInstance from undeclared class \MongoDbClient
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:445 PhanUndeclaredClassMethod Call to method __construct from undeclared class \MongoDB\BSON\ObjectId (Did you mean to configure a stub with https://github.com/phan/phan/wiki/How-To-Use-Stubs#internal-stubs or to enable the extension providing the class.)
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:445 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:450 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::respondTo
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:464 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::app
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:465 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:467 PhanUndeclaredClassMethod Call to method __construct from undeclared class \MongoDB\BSON\ObjectId (Did you mean to configure a stub with https://github.com/phan/phan/wiki/How-To-Use-Stubs#internal-stubs or to enable the extension providing the class.)
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:467 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:472 PhanUndeclaredClassMethod Call to method getInstance from undeclared class \MongoDbClient
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:473 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:483 PhanUndeclaredClassMethod Call to method __construct from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:484 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::respondTo
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:485 PhanUndeclaredClassMethod Call to method rating from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:495 PhanTypeMissingReturn Method \SparkLib\Application\ControllerRole\CommentHandler::report is declared to return string in phpdoc but has no return value
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:501 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:513 PhanUndeclaredClassMethod Call to method getInstance from undeclared class \MongoDbClient
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:514 PhanUndeclaredClassMethod Call to method __construct from undeclared class \MongoDB\BSON\ObjectId (Did you mean to configure a stub with https://github.com/phan/phan/wiki/How-To-Use-Stubs#internal-stubs or to enable the extension providing the class.)
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:514 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:522 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::respondTo
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:526 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::respondTo
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:527 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::template
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:530 PhanPossiblyUndeclaredVariable Variable $comment is possibly undeclared
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:531 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::layout
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:532 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::layout
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:534 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::layout
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:546 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::app
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:547 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:549 PhanUndeclaredClassMethod Call to method __construct from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:549 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:554 PhanUndeclaredClassProperty Reference to instance property customer_id from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:558 PhanUndeclaredClassProperty Reference to instance property text from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:558 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:559 PhanUndeclaredClassMethod Call to method __construct from undeclared class \MongoDB\BSON\UTCDateTime (Did you mean to configure a stub with https://github.com/phan/phan/wiki/How-To-Use-Stubs#internal-stubs or to enable the extension providing the class.)
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:559 PhanUndeclaredClassProperty Reference to instance property mtime from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:560 PhanUndeclaredClassMethod Call to method update from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:561 PhanUndeclaredClassMethod Call to method log from undeclared class \LogSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:561 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::req
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:564 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::respondTo
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:569 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::app
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:570 PhanUndeclaredClassProperty Reference to instance property entity_table from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:571 PhanUndeclaredClassProperty Reference to instance property entity_id from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:572 PhanUndeclaredClassMethod Call to method find from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:574 PhanUndeclaredClassProperty Reference to instance property entity_table from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:575 PhanUndeclaredClassProperty Reference to instance property entity_id from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:583 PhanUndeclaredClassMethod Call to method id from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:589 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\CommentHandler::respondTo
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:590 PhanUndeclaredClassMethod Call to method url from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:606 PhanUndeclaredClassMethod Call to method __construct from undeclared class \Spark\Mailer
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:607 PhanUndeclaredClassMethod Call to method AddAddress from undeclared class \Spark\Mailer
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:608 PhanUndeclaredClassProperty Reference to instance property Subject from undeclared class \Spark\Mailer
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:609 PhanUndeclaredClassMethod Call to method MsgHTML from undeclared class \Spark\Mailer
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:611 PhanUndeclaredClassMethod Call to method Send from undeclared class \Spark\Mailer
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:616 PhanUndeclaredClassMethod Call to method __construct from undeclared class \CustomerSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:623 PhanUndeclaredClassMethod Call to method alias from undeclared class \CustomerSaurus
+lib/SparkLib/Application/ControllerRole/CommentHandler.php:623 PhanUndeclaredClassMethod Call to method id from undeclared class \CustomerSaurus
+lib/SparkLib/Application/ControllerRole/ErrorHandler.php:19 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\ErrorHandler::app
+lib/SparkLib/Application/ControllerRole/ErrorHandler.php:22 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\ErrorHandler::addHttpHeader
+lib/SparkLib/Application/ControllerRole/ErrorHandler.php:24 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\ErrorHandler::layout
+lib/SparkLib/Application/ControllerRole/ErrorHandler.php:25 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\ErrorHandler::layout
+lib/SparkLib/Application/ControllerRole/ErrorHandler.php:27 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\ErrorHandler::layout
+lib/SparkLib/Application/ControllerRole/ErrorHandler.php:38 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\ErrorHandler::app
+lib/SparkLib/Application/ControllerRole/ErrorHandler.php:42 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\ErrorHandler::app
+lib/SparkLib/Application/ControllerRole/ErrorHandler.php:59 PhanUndeclaredConstant Reference to undeclared constant \HOSTNAME. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/Application/ControllerRole/ErrorHandler.php:77 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\ErrorHandler::addHttpHeader
+lib/SparkLib/Application/ControllerRole/ErrorHandler.php:81 PhanUndeclaredClassMethod Call to method findLiveRandom from undeclared class \BlogPostSaurus
+lib/SparkLib/Application/ControllerRole/ErrorHandler.php:82 PhanUndeclaredClassMethod Call to method findPublicRandom from undeclared class \LearnTutorialSaurus
+lib/SparkLib/Application/ControllerRole/ErrorHandler.php:83 PhanUndeclaredClassMethod Call to method findLiveRandom from undeclared class \StorefrontProductSaurus
+lib/SparkLib/Application/ControllerRole/ErrorHandler.php:85 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\ErrorHandler::layout
+lib/SparkLib/Application/ControllerRole/ErrorHandler.php:86 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\ErrorHandler::layout
+lib/SparkLib/Application/ControllerRole/ErrorHandler.php:88 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\ErrorHandler::layout
+lib/SparkLib/Application/ControllerRole/PageHandlerBase.php:22 PhanUndeclaredClassProperty Reference to instance property id from undeclared class \SparkLib\Application\SparkLib\Application\Request (Did you mean class \SparkLib\Application\Request)
+lib/SparkLib/Application/ControllerRole/PageHandlerBase.php:25 PhanUndeclaredClassConstant Reference to constant COMMERCE from undeclared class \DomainSaurus
+lib/SparkLib/Application/ControllerRole/PageHandlerBase.php:26 PhanUndeclaredClassConstant Reference to constant LEARN from undeclared class \DomainSaurus
+lib/SparkLib/Application/ControllerRole/PageHandlerBase.php:28 PhanUndeclaredClassMethod Call to method getActiveByName from undeclared class \StaticContentSaurus
+lib/SparkLib/Application/ControllerRole/StaticContentHandlerTrait.php:11 PhanUndeclaredTypeParameter Parameter $page has undeclared type \StaticContentSaurus
+lib/SparkLib/Application/ControllerRole/StaticContentHandlerTrait.php:13 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\StaticContentHandlerTrait::app
+lib/SparkLib/Application/ControllerRole/StaticContentHandlerTrait.php:16 PhanUndeclaredClassProperty Reference to instance property full_layout from undeclared class \StaticContentSaurus
+lib/SparkLib/Application/ControllerRole/StaticContentHandlerTrait.php:16 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\StaticContentHandlerTrait::app
+lib/SparkLib/Application/ControllerRole/StaticContentHandlerTrait.php:17 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\StaticContentHandlerTrait::setLayout
+lib/SparkLib/Application/ControllerRole/StaticContentHandlerTrait.php:19 PhanUndeclaredClassProperty Reference to instance property is_commentable from undeclared class \StaticContentSaurus
+lib/SparkLib/Application/ControllerRole/StaticContentHandlerTrait.php:23 PhanUndeclaredClassProperty Reference to instance property static_content_name from undeclared class \StaticContentSaurus
+lib/SparkLib/Application/ControllerRole/StaticContentHandlerTrait.php:30 PhanUndeclaredClassMethod Call to method find from undeclared class \CustomerCommentSaurus
+lib/SparkLib/Application/ControllerRole/StaticContentHandlerTrait.php:34 PhanUndeclaredClassProperty Reference to instance property static_content_name from undeclared class \StaticContentSaurus
+lib/SparkLib/Application/ControllerRole/StaticContentHandlerTrait.php:34 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\StaticContentHandlerTrait::app
+lib/SparkLib/Application/ControllerRole/StaticContentHandlerTrait.php:34 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\StaticContentHandlerTrait::layout
+lib/SparkLib/Application/ControllerRole/StaticContentHandlerTrait.php:35 PhanUndeclaredClassProperty Reference to instance property static_content_title from undeclared class \StaticContentSaurus
+lib/SparkLib/Application/ControllerRole/StaticContentHandlerTrait.php:35 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\StaticContentHandlerTrait::layout
+lib/SparkLib/Application/ControllerRole/StaticContentHandlerTrait.php:36 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\StaticContentHandlerTrait::layout
+lib/SparkLib/Application/ControllerRole/StaticContentHandlerTrait.php:37 PhanUndeclaredMethod Call to undeclared method \SparkLib\Application\ControllerRole\StaticContentHandlerTrait::layout
+lib/SparkLib/Application/Environment.php:29 PhanTypeMismatchReturnProbablyReal Returning null of type null but remoteAddress() is declared to return string (no real type) (the inferred real return type has nothing in common with the declared phpdoc return type)
+lib/SparkLib/Autoloader.php:65 PhanUndeclaredConstant Reference to undeclared constant \LIBDIR. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/Blode/Event.php:33 PhanUndeclaredConstant Reference to undeclared constant \BLODE_HTTP_PORT. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/Blode/Event.php:33 PhanUndeclaredConstant Reference to undeclared constant \BLODE_SERVER. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/Blode/Event.php:39 PhanUndeclaredConstant Reference to undeclared constant \BLODE_USE_UDP. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/Blode/Event.php:49 PhanUndeclaredConstant Reference to undeclared constant \BLODE_USE_UDP. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/Blode/Event.php:88 PhanUndeclaredConstant Reference to undeclared constant \BLODE_USE_UDP. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/Blode/Event.php:98 PhanUndeclaredConstant Reference to undeclared constant \BLODE_SERVER. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/Blode/Event.php:98 PhanUndeclaredConstant Reference to undeclared constant \BLODE_UDP_PORT. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/Bugzilla.php:34 PhanUndeclaredTypeReturnType Return type of bug() is undeclared type \SparkLib\stdClass (Did you mean class \stdClass)
+lib/SparkLib/Bugzilla.php:69 PhanTypeMismatchReturn Returning count($result['bugs']) of type int but search() is declared to return array|bool
+lib/SparkLib/Bugzilla.php:165 PhanTypeMismatchDimAssignment When appending to a value of type array{}, found an array access index of type ?string, but expected the index to be of type int|string
+lib/SparkLib/Bugzilla.php:203 PhanTypeMismatchDimAssignment When appending to a value of type array{}, found an array access index of type ?string, but expected the index to be of type int|string
+lib/SparkLib/DB.php:40 PhanUndeclaredConstant Reference to undeclared constant \DB_SERVER_TYPE. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/DB.php:64 PhanUndeclaredConstant Reference to undeclared constant \DB_DATABASE. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/DB.php:64 PhanUndeclaredConstant Reference to undeclared constant \DB_SERVER. This will cause a thrown Error in php 8.0+. (Did you mean $_SERVER)
+lib/SparkLib/DB.php:64 PhanUndeclaredConstant Reference to undeclared constant \DB_SERVER_TYPE. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/DB.php:65 PhanUndeclaredConstant Reference to undeclared constant \DB_SERVER_USERNAME. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/DB.php:66 PhanUndeclaredConstant Reference to undeclared constant \DB_SERVER_PASSWORD. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/DB.php:67 PhanUndeclaredConstant Reference to undeclared constant \USE_PCONNECT. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/DB.php:74 PhanUndeclaredConstant Reference to undeclared constant \DB_SERVER_TYPE. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/DB.php:133 PhanTypeMismatchDefault Default value for string $style can't be int
+lib/SparkLib/DB.php:173 PhanUndeclaredClassCatch Catching undeclared class \SparkLib\PDOException (Did you mean class \PDOException)
+lib/SparkLib/DB/Random.php:8 PhanUndeclaredProperty Reference to undeclared property \SparkLib\DB\Random->_dbType (Did you mean $db_type)
+lib/SparkLib/DB/Random.php:13 PhanUndeclaredProperty Reference to undeclared property \SparkLib\DB\Random->_dbType
+lib/SparkLib/Exception/AuthenticationException.php:13 PhanUndeclaredTypeParameter Parameter $previous has undeclared type ?\SparkLib\Exception\Exception (Did you mean class \Exception or class \FFI\Exception)
+lib/SparkLib/Exception/SparkException.php:23 PhanUndeclaredTypeParameter Parameter $previous has undeclared type ?\SparkLib\Exception\Exception (Did you mean class \Exception or class \FFI\Exception)
+lib/SparkLib/Exception/SparkException.php:31 PhanTypeMismatchArgumentInternal Argument 3 ($previous) is $previous of type ?\SparkLib\Exception\Exception but \Exception::__construct() takes ?\Exception|?\Throwable
+lib/SparkLib/Fail.php:137 PhanUndeclaredClassMethod Call to method getMessage from undeclared class \SparkLib\Exception (Did you mean class \Exception or class \FFI\Exception)
+lib/SparkLib/Fail.php:137 PhanUndeclaredClassMethod Call to method getMessage from undeclared class \SparkLib\PDOException (Did you mean class \PDOException)
+lib/SparkLib/Fail.php:138 PhanUndeclaredClassMethod Call to method getTraceAsString from undeclared class \SparkLib\Exception (Did you mean class \Exception or class \FFI\Exception)
+lib/SparkLib/Fail.php:138 PhanUndeclaredClassMethod Call to method getTraceAsString from undeclared class \SparkLib\PDOException (Did you mean class \PDOException)
+lib/SparkLib/IataClassifier/IataClassifier.php:5 PhanUnreferencedUseNormal Possibly zero references to use statement for classlike/namespace Exception (\Exception)
+lib/SparkLib/IataClassifier/IataClassifier.php:8 PhanUnreferencedUseNormal Possibly zero references to use statement for classlike/namespace IataLineItem (\SparkLib\IataClassifier\IataLineItem)
+lib/SparkLib/IataClassifier/IataLiIonBattery.php:5 PhanUnreferencedUseNormal Possibly zero references to use statement for classlike/namespace Exception (\Exception)
+lib/SparkLib/IataClassifier/IataLiMetalBattery.php:23 PhanUndeclaredMethod Call to undeclared method \SparkLib\IataClassifier\IataLiMetalBattery::setLithium (Did you mean expr->setLithiumContent())
+lib/SparkLib/IataClassifier/IataPackage.php:24 PhanUndeclaredClassMethod Call to method __construct from undeclared class \SparkLib\IataClassifier\Exception (Did you mean class \Exception or class \FFI\Exception)
+lib/SparkLib/IataClassifier/IataPackage.php:36 PhanUndeclaredClassMethod Call to method __construct from undeclared class \SparkLib\IataClassifier\Exception (Did you mean class \Exception or class \FFI\Exception)
+lib/SparkLib/IataClassifier/IataPackage.php:45 PhanUndeclaredClassMethod Call to method __construct from undeclared class \SparkLib\IataClassifier\Exception (Did you mean class \Exception or class \FFI\Exception)
+lib/SparkLib/IataClassifier/IataPackage.php:54 PhanUndeclaredClassMethod Call to method __construct from undeclared class \SparkLib\IataClassifier\Exception (Did you mean class \Exception or class \FFI\Exception)
+lib/SparkLib/IataClassifier/IataPackage.php:72 PhanUndeclaredClassMethod Call to method __construct from undeclared class \SparkLib\IataClassifier\Exception (Did you mean class \Exception or class \FFI\Exception)
+lib/SparkLib/IataClassifier/IataPackage.php:184 PhanAccessMethodProtected Cannot access protected method \SparkLib\IataClassifier\IataBattery::iataSize defined at lib/SparkLib/IataClassifier/IataBattery.php:39
+lib/SparkLib/IataClassifier/IataPackage.php:185 PhanAccessMethodProtected Cannot access protected method \SparkLib\IataClassifier\IataBattery::iataSize defined at lib/SparkLib/IataClassifier/IataBattery.php:39
+lib/SparkLib/IataClassifier/IataPackage.php:221 PhanAccessMethodProtected Cannot access protected method \SparkLib\IataClassifier\IataBattery::getChemistry defined at lib/SparkLib/IataClassifier/IataBattery.php:41
+lib/SparkLib/IataClassifier/IataPackage.php:222 PhanAccessMethodProtected Cannot access protected method \SparkLib\IataClassifier\IataBattery::getChemistry defined at lib/SparkLib/IataClassifier/IataBattery.php:41
+lib/SparkLib/IataClassifier/IataPackage.php:235 PhanAccessMethodProtected Cannot access protected method \SparkLib\IataClassifier\IataBattery::iataSize defined at lib/SparkLib/IataClassifier/IataBattery.php:39
+lib/SparkLib/Image/Compressor.php:72 PhanUndeclaredClassMethod Call to method __construct from undeclared class \ImageCompressionSaurus
+lib/SparkLib/Image/Compressor.php:73 PhanUndeclaredClassProperty Reference to instance property original_size from undeclared class \ImageCompressionSaurus
+lib/SparkLib/Image/Compressor.php:75 PhanUndeclaredClassProperty Reference to instance property optimized_size from undeclared class \ImageCompressionSaurus
+lib/SparkLib/Image/Compressor.php:77 PhanUndeclaredClassProperty Reference to instance property optimized_size from undeclared class \ImageCompressionSaurus
+lib/SparkLib/Image/Compressor.php:78 PhanUndeclaredClassProperty Reference to instance property ctime from undeclared class \ImageCompressionSaurus
+lib/SparkLib/Image/Compressor.php:79 PhanUndeclaredClassMethod Call to method insert from undeclared class \ImageCompressionSaurus
+lib/SparkLib/Image/Compressor.php:124 PhanUndeclaredConstant Reference to undeclared constant \PUNYPNG_KEY. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/Iterator.php:31 PhanUndeclaredTypeReturnType Return type of each() is undeclared type \SparkLib\SparkFriendFinder (Did you mean class \SparkFriendFinder)
+lib/SparkLib/Iterator.php:39 PhanTypeMismatchReturn Returning $this of type \SparkLib\Iterator but each() is declared to return \SparkLib\SparkFriendFinder
+lib/SparkLib/Iterator.php:50 PhanTypeMismatchReturn Returning $this of type \SparkLib\Iterator but each() is declared to return \SparkLib\SparkFriendFinder
+lib/SparkLib/Iterator/Wrapper.php:31 PhanUndeclaredMethod Call to undeclared method \Iterator::getNext
+lib/SparkLib/Iterator/Wrapper.php:57 PhanSyntaxReturnValueInVoid Syntax error: void function next() must not return a value (did you mean "return;" instead of "return $this->_iterator->next();"?)
+lib/SparkLib/Iterator/Wrapper.php:58 PhanSyntaxReturnValueInVoid Syntax error: void function rewind() must not return a value (did you mean "return;" instead of "return $this->_iterator->rewind();"?)
+lib/SparkLib/MongoFinder.php:43 PhanUndeclaredClassMethod Call to method __construct from undeclared class \MongoDB\Driver\Manager (Did you mean to configure a stub with https://github.com/phan/phan/wiki/How-To-Use-Stubs#internal-stubs or to enable the extension providing the class.)
+lib/SparkLib/MongoFinder.php:43 PhanUndeclaredConstant Reference to undeclared constant \MONGODB_REPLSET. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/MongoFinder.php:43 PhanUndeclaredConstant Reference to undeclared constant \MONGODB_SERVER. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/MongoFinder.php:69 PhanTypeMismatchReturnProbablyReal Returning (!isset($this->_iterator) || $this->_paramsChanged) of type bool but _isNotReady() is declared to return void (no real type) (the inferred real return type has nothing in common with the declared phpdoc return type)
+lib/SparkLib/MongoFinder.php:109 PhanTypeMismatchDefault Default value for string $comparison can't be false
+lib/SparkLib/MongoFinder.php:177 PhanTypeMismatchDefault Default value for string $comparison can't be false
+lib/SparkLib/MongoFinder.php:190 PhanUndeclaredClassMethod Call to method __construct from undeclared class \MongoDB\BSON\Regex (Did you mean to configure a stub with https://github.com/phan/phan/wiki/How-To-Use-Stubs#internal-stubs or to enable the extension providing the class.)
+lib/SparkLib/MongoFinder.php:332 PhanUndeclaredTypeReturnType Return type of getOne() is undeclared type \Spark
+lib/SparkLib/MongoFinder.php:341 PhanUndeclaredTypeReturnType Return type of getNext() is undeclared type \Spark
+lib/SparkLib/MongoFinder.php:356 PhanUndeclaredClassMethod Call to method __construct from undeclared class \MongoDB\Driver\Command (Did you mean to configure a stub with https://github.com/phan/phan/wiki/How-To-Use-Stubs#internal-stubs or to enable the extension providing the class.)
+lib/SparkLib/MongoFinder.php:357 PhanUndeclaredClassMethod Call to method executeCommand from undeclared class \MongoDB\Driver\Manager (Did you mean to configure a stub with https://github.com/phan/phan/wiki/How-To-Use-Stubs#internal-stubs or to enable the extension providing the class.)
+lib/SparkLib/MongoFinder.php:357 PhanUndeclaredConstant Reference to undeclared constant \MONGODB_DATABASE. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/MongoFinder.php:381 PhanUndeclaredClassMethod Call to method __construct from undeclared class \MongoDB\Driver\Query (Did you mean to configure a stub with https://github.com/phan/phan/wiki/How-To-Use-Stubs#internal-stubs or to enable the extension providing the class.)
+lib/SparkLib/MongoFinder.php:382 PhanUndeclaredClassMethod Call to method executeQuery from undeclared class \MongoDB\Driver\Manager (Did you mean to configure a stub with https://github.com/phan/phan/wiki/How-To-Use-Stubs#internal-stubs or to enable the extension providing the class.)
+lib/SparkLib/MongoFinder.php:382 PhanUndeclaredConstant Reference to undeclared constant \MONGODB_DATABASE. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/MongoFinder.php:420 PhanUndeclaredConstant Reference to undeclared constant \MONGODB_DATABASE. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/MongoFinder.php:429 PhanParamSignatureMismatchInternal Declaration of function getInnerIterator() : bool should be compatible with internal function getInnerIterator() : \Iterator
+lib/SparkLib/MongoFinder.php:432 PhanTypeMismatchReturnProbablyReal Returning $this->_iterator->getInnerIterator() of type \Traversable (real type ?\Iterator) but getInnerIterator() is declared to return bool (no real type) (the inferred real return type has nothing in common with the declared phpdoc return type)
+lib/SparkLib/MongoFinder.php:440 PhanUndeclaredTypeReturnType Return type of current() is undeclared type \Spark
+lib/SparkLib/MongoFinder.php:453 PhanUndeclaredClassMethod Call to method id from undeclared class \Spark
+lib/SparkLib/MongoFinder.php:462 PhanParamSignatureMismatchInternal Declaration of function next() : \SparkLib\MongoFinder should be compatible with internal function next() : void
+lib/SparkLib/MongoFinder.php:476 PhanParamSignatureMismatchInternal Declaration of function rewind() : \SparkLib\MongoFinder should be compatible with internal function rewind() : void
+lib/SparkLib/PDF.php:14 PhanUndeclaredClassMethod Call to method __construct from undeclared class \mikehaertl\wkhtmlto\Pdf (Did you mean class \SparkLib\PDF)
+lib/SparkLib/PDF.php:25 PhanUndeclaredClassMethod Call to method addPage from undeclared class \mikehaertl\wkhtmlto\Pdf (Did you mean class \SparkLib\PDF)
+lib/SparkLib/PDF.php:33 PhanUndeclaredClassMethod Call to method send from undeclared class \mikehaertl\wkhtmlto\Pdf (Did you mean class \SparkLib\PDF)
+lib/SparkLib/PDF.php:37 PhanUndeclaredClassMethod Call to method toString from undeclared class \mikehaertl\wkhtmlto\Pdf (Did you mean class \SparkLib\PDF)
+lib/SparkLib/SocialNoise.php:36 PhanUndeclaredClassMethod Call to method getInstance from undeclared class \SparkCache
+lib/SparkLib/SocialNoise/GooglePlus.php:4 PhanUnreferencedUseNormal Possibly zero references to use statement for classlike/namespace Fail (\SparkLib\Fail)
+lib/SparkLib/SocialNoise/Twitter.php:4 PhanUnreferencedUseNormal Possibly zero references to use statement for classlike/namespace Fail (\SparkLib\Fail)
+lib/SparkLib/Sparkdown.php:50 PhanUndeclaredClassConstant Reference to constant NOHTML from undeclared class \MarkdownDocument
+lib/SparkLib/Sparkdown.php:50 PhanUndeclaredClassMethod Call to method transformFragment from undeclared class \MarkdownDocument
+lib/SparkLib/Sparkdown.php:55 PhanUndeclaredClassMethod Call to method createFromString from undeclared class \MarkdownDocument
+lib/SparkLib/Sparkdown.php:68 PhanUndeclaredClassMethod Call to method __construct from undeclared class \SparkLib\Exception (Did you mean class \Exception or class \FFI\Exception)
+lib/SparkLib/Sparkdown.php:72 PhanUndeclaredClassMethod Call to method __construct from undeclared class \SparkLib\Exception (Did you mean class \Exception or class \FFI\Exception)
+lib/SparkLib/Sparkdown.php:119 PhanUndeclaredClassMethod Call to method getById from undeclared class \LearnTutorialSaurus
+lib/SparkLib/Sparkdown.php:120 PhanUndeclaredClassMethod Call to method externalLink from undeclared class \Learn
+lib/SparkLib/Sparkdown.php:202 PhanUndeclaredClassConstant Reference to constant NOHTML from undeclared class \MarkdownDocument
+lib/SparkLib/Sparkdown.php:241 PhanPossiblyUndeclaredVariable Variable $class_exists is possibly undeclared
+lib/SparkLib/Sparkdown.php:244 PhanNonClassMethodCall Call to method __construct on non-class type ?string=
+lib/SparkLib/Sparkdown.php:244 PhanPossiblyUndeclaredVariable Variable $class is possibly undeclared
+lib/SparkLib/SparkdownMacro/Equation.php:16 PhanUndeclaredClassMethod Call to method getById from undeclared class \FeaturedContentSaurus
+lib/SparkLib/SparkdownMacro/Equation.php:16 PhanUndeclaredProperty Reference to undeclared property \SparkLib\SparkdownMacro\FeaturedContent->_fc
+lib/SparkLib/Template.php:7 PhanUnreferencedUseNormal Possibly zero references to use statement for classlike/namespace Dompdf (\Dompdf\Dompdf)
+lib/SparkLib/Template.php:72 PhanUndeclaredConstant Reference to undeclared constant \LIBDIR. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/Template.php:94 PhanTypeMismatchReturn Returning ($this->_context[$property] = $value) of type  but __set() is declared to return void
+lib/SparkLib/Template.php:94 PhanTypeMismatchReturn Returning ($this->_context[$property] = $value) of type mixed but __set() is declared to return void
+lib/SparkLib/Template.php:226 PhanUndeclaredClassCatch Catching undeclared class \SparkLib\Exception (Did you mean class \Exception or class \FFI\Exception)
+lib/SparkLib/Template.php:329 PhanUndeclaredTypeParameter Parameter $filespec has undeclared type \SparkLib\filespec
+lib/SparkLib/Template.php:335 PhanTypeMismatchArgumentInternal Argument 1 ($string) is $filespec of type \SparkLib\filespec but \strlen() takes string
+lib/SparkLib/Template.php:336 PhanTypeMismatchArgumentInternal Argument 1 ($filename) is $filespec of type \SparkLib\filespec but \file_put_contents() takes string
+lib/SparkLib/Template.php:376 PhanTypeArraySuspicious Suspicious array access to $options of type ?mixed
+lib/SparkLib/UPS/Rate.php:28 PhanUnreferencedUseNormal Possibly zero references to use statement for classlike/namespace Fail (\SparkLib\Fail)
+lib/SparkLib/UPS/Rate.php:35 PhanUndeclaredConstant Reference to undeclared constant \UPS_SCHEMA. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/UPS/Rate.php:36 PhanUndeclaredConstant Reference to undeclared constant \UPS_RATE_WSDL. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/UPS/Rate.php:37 PhanUndeclaredConstant Reference to undeclared constant \UPS_RATE_SERVER. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/UPS/Rate.php:38 PhanUndeclaredConstant Reference to undeclared constant \UPS_USERID. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/UPS/Rate.php:39 PhanUndeclaredConstant Reference to undeclared constant \UPS_USERPASS. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/UPS/Rate.php:40 PhanUndeclaredConstant Reference to undeclared constant \UPS_APIKEY. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/UPS/Rate.php:79 PhanTypeMismatchArgumentProbablyReal Argument 2 ($FRSShipmentIndicator) is null of type null but \SparkLib\UPS\Rate\ShipmentRatingOptionsType::__construct() takes string (no real type) defined at lib/SparkLib/UPS/Rate/ShipmentRatingOptionsType.php:36 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/UPS/Rate.php:79 PhanTypeMismatchArgumentProbablyReal Argument 3 ($RateChartIndicator) is null of type null but \SparkLib\UPS\Rate\ShipmentRatingOptionsType::__construct() takes string (no real type) defined at lib/SparkLib/UPS/Rate/ShipmentRatingOptionsType.php:36 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/UPS/Rate.php:84 PhanUndeclaredProperty Reference to undeclared property \SparkLib\UPS\Rate->_pakRatesRates
+lib/SparkLib/UPS/Rate.php:148 PhanTypeMismatchArgumentProbablyReal Argument 2 ($Address) is $shipToAddress of type \SparkLib\UPS\Rate\AddressType but \SparkLib\UPS\Rate\ShipToType::__construct() takes \SparkLib\UPS\Rate\ShipToAddressType (no real type) defined at lib/SparkLib/UPS/Rate/ShipToType.php:28 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/UPS/Rate.php:156 PhanTypeMismatchArgument Argument 1 ($Package) is $this->_packages of type array|list<\SparkLib\UPS\Rate\PackageType> but \SparkLib\UPS\Rate\ShipmentType::setPackage() takes \SparkLib\UPS\Rate\PackageType defined at lib/SparkLib/UPS/Rate/ShipmentType.php:317
+lib/SparkLib/UPS/Rate.php:167 PhanTypeMismatchArgumentProbablyReal Argument 3 ($CustomerClassification) is null of type null but \SparkLib\UPS\Rate\RateRequest::__construct() takes \SparkLib\UPS\Rate\CodeDescriptionType (no real type) defined at lib/SparkLib/UPS/Rate/RateRequest.php:44 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/UPS/Rate.php:194 PhanTypeExpectedObjectPropAccessButGotNull Expected an object instance when accessing an instance property, but saw an expression $s->detail with type null
+lib/SparkLib/UPS/Ship/SchemaType/ShipToType.php:256 PhanTypeMismatchReturn Returning $this->Address of type \SparkLib\UPS\Ship\SchemaType\ShipToAddressType but getAddress() is declared to return \SparkLib\UPS\Ship\SchemaType\ShipAddressType
+lib/SparkLib/UPS/Ship/SchemaType/ShipToType.php:265 PhanTypeMismatchProperty Assigning $Address of type \SparkLib\UPS\Ship\SchemaType\ShipAddressType to property but \SparkLib\UPS\Ship\SchemaType\ShipToType->Address is \SparkLib\UPS\Ship\SchemaType\ShipToAddressType
+lib/SparkLib/UPS/Ship/Ship.php:23 PhanUnreferencedUseNormal Possibly zero references to use statement for classlike/namespace ProductWeightType (\SparkLib\UPS\Ship\SchemaType\ProductWeightType)
+lib/SparkLib/UPS/Ship/Ship.php:52 PhanUndeclaredConstant Reference to undeclared constant \UPS_SCHEMA. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/UPS/Ship/Ship.php:53 PhanUndeclaredConstant Reference to undeclared constant \UPS_SHIP_WSDL. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/UPS/Ship/Ship.php:54 PhanUndeclaredConstant Reference to undeclared constant \UPS_SHIP_SERVER. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/UPS/Ship/Ship.php:55 PhanUndeclaredConstant Reference to undeclared constant \UPS_USERID. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/UPS/Ship/Ship.php:56 PhanUndeclaredConstant Reference to undeclared constant \UPS_USERPASS. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/UPS/Ship/Ship.php:57 PhanUndeclaredConstant Reference to undeclared constant \UPS_APIKEY. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/UPS/Ship/Ship.php:137 PhanTypeMismatchArgumentProbablyReal Argument 1 ($Packaging) is new CodeDescriptionType('04') of type \SparkLib\UPS\Ship\SchemaType\CodeDescriptionType but \SparkLib\UPS\Ship\SchemaType\PackageType::setPackaging() takes \SparkLib\UPS\Ship\SchemaType\PackagingType (no real type) defined at lib/SparkLib/UPS/Ship/SchemaType/PackageType.php:128 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/UPS/Ship/Ship.php:139 PhanTypeMismatchArgumentProbablyReal Argument 1 ($Packaging) is new CodeDescriptionType('02') of type \SparkLib\UPS\Ship\SchemaType\CodeDescriptionType but \SparkLib\UPS\Ship\SchemaType\PackageType::setPackaging() takes \SparkLib\UPS\Ship\SchemaType\PackagingType (no real type) defined at lib/SparkLib/UPS/Ship/SchemaType/PackageType.php:128 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/UPS/Ship/Ship.php:141 PhanTypeMismatchArgumentProbablyReal Argument 1 ($UnitOfMeasurement) is new CodeDescriptionType($units) of type \SparkLib\UPS\Ship\SchemaType\CodeDescriptionType but \SparkLib\UPS\Ship\SchemaType\DimensionsType::__construct() takes \SparkLib\UPS\Ship\SchemaType\ShipUnitOfMeasurementType (no real type) defined at lib/SparkLib/UPS/Ship/SchemaType/DimensionsType.php:44 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/UPS/Ship/Ship.php:152 PhanTypeMismatchArgumentProbablyReal Argument 1 ($UnitOfMeasurement) is new CodeDescriptionType($units) of type \SparkLib\UPS\Ship\SchemaType\CodeDescriptionType but \SparkLib\UPS\Ship\SchemaType\PackageWeightType::__construct() takes \SparkLib\UPS\Ship\SchemaType\ShipUnitOfMeasurementType (no real type) defined at lib/SparkLib/UPS/Ship/SchemaType/PackageWeightType.php:28 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/UPS/Ship/Ship.php:169 PhanTypeMismatchArgument Argument 1 ($MonetaryValue) is $this->_totalValue of type int but \SparkLib\UPS\Ship\SchemaType\PackageDeclaredValueType::setMonetaryValue() takes string defined at lib/SparkLib/UPS/Ship/SchemaType/PackageDeclaredValueType.php:92
+lib/SparkLib/UPS/Ship/Ship.php:186 PhanTypeMismatchArgument Argument 1 ($BarCodeIndicator) is true of type true but \SparkLib\UPS\Ship\SchemaType\ReferenceNumberType::setBarCodeIndicator() takes string defined at lib/SparkLib/UPS/Ship/SchemaType/ReferenceNumberType.php:56
+lib/SparkLib/UPS/Ship/Ship.php:219 PhanTypeMismatchArgument Argument 3 ($Value) is $value of type float but \SparkLib\UPS\Ship\SchemaType\UnitType::__construct() takes string defined at lib/SparkLib/UPS/Ship/SchemaType/UnitType.php:36
+lib/SparkLib/UPS/Ship/Ship.php:249 PhanTypeMismatchArgumentProbablyReal Argument 4 ($Town) is null of type null but \SparkLib\UPS\Ship\SchemaType\AddressType::__construct() takes string (no real type) defined at lib/SparkLib/UPS/Ship/SchemaType/AddressType.php:60 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/UPS/Ship/Ship.php:251 PhanUndeclaredProperty Reference to undeclared property \SparkLib\UPS\Ship\SchemaType\ShipmentServiceOptions->InternationalForms
+lib/SparkLib/UPS/Ship/Ship.php:264 PhanTypeMismatchArgumentProbablyReal Argument 1 ($Phone) is new PhoneType($phone) of type \SparkLib\UPS\Ship\SchemaType\PhoneType but \SparkLib\UPS\Ship\SchemaType\ShipperType::setPhone() takes \SparkLib\UPS\Ship\SchemaType\ShipPhoneType (no real type) defined at lib/SparkLib/UPS/Ship/SchemaType/ShipperType.php:209 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/UPS/Ship/Ship.php:279 PhanUndeclaredProperty Reference to undeclared property \SparkLib\UPS\Ship\SchemaType\ShipmentServiceOptions->InternationalForms
+lib/SparkLib/UPS/Ship/Ship.php:285 PhanUndeclaredProperty Reference to undeclared property \SparkLib\UPS\Ship\SchemaType\ShipmentServiceOptions->InternationalForms
+lib/SparkLib/UPS/Ship/Ship.php:323 PhanTypeMismatchArgumentProbablyReal Argument 1 ($Phone) is new PhoneType($phone) of type \SparkLib\UPS\Ship\SchemaType\PhoneType but \SparkLib\UPS\Ship\SchemaType\ShipFromType::setPhone() takes \SparkLib\UPS\Ship\SchemaType\ShipPhoneType (no real type) defined at lib/SparkLib/UPS/Ship/SchemaType/ShipFromType.php:191 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/UPS/Ship/Ship.php:387 PhanTypeMismatchArgumentProbablyReal Argument 4 ($Town) is null of type null but \SparkLib\UPS\Ship\SchemaType\AddressType::__construct() takes string (no real type) defined at lib/SparkLib/UPS/Ship/SchemaType/AddressType.php:60 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/UPS/Ship/Ship.php:388 PhanUndeclaredProperty Reference to undeclared property \SparkLib\UPS\Ship\SchemaType\ShipmentServiceOptions->InternationalForms
+lib/SparkLib/UPS/Ship/Ship.php:395 PhanTypeMismatchArgumentProbablyReal Argument 4 ($Town) is null of type null but \SparkLib\UPS\Ship\SchemaType\AddressType::__construct() takes string (no real type) defined at lib/SparkLib/UPS/Ship/SchemaType/AddressType.php:60 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/UPS/Ship/Ship.php:396 PhanUndeclaredProperty Reference to undeclared property \SparkLib\UPS\Ship\SchemaType\ShipmentServiceOptions->InternationalForms
+lib/SparkLib/UPS/Ship/Ship.php:410 PhanTypeMismatchArgumentProbablyReal Argument 1 ($Phone) is new PhoneType($phone) of type \SparkLib\UPS\Ship\SchemaType\PhoneType but \SparkLib\UPS\Ship\SchemaType\ShipToType::setPhone() takes \SparkLib\UPS\Ship\SchemaType\ShipPhoneType (no real type) defined at lib/SparkLib/UPS/Ship/SchemaType/ShipToType.php:209 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/UPS/Ship/Ship.php:426 PhanUndeclaredProperty Reference to undeclared property \SparkLib\UPS\Ship\SchemaType\ShipmentServiceOptions->InternationalForms
+lib/SparkLib/UPS/Ship/Ship.php:432 PhanUndeclaredProperty Reference to undeclared property \SparkLib\UPS\Ship\SchemaType\ShipmentServiceOptions->InternationalForms
+lib/SparkLib/UPS/Ship/Ship.php:438 PhanUndeclaredProperty Reference to undeclared property \SparkLib\UPS\Ship\SchemaType\ShipmentServiceOptions->InternationalForms
+lib/SparkLib/UPS/Ship/Ship.php:466 PhanUndeclaredProperty Reference to undeclared property \SparkLib\UPS\Ship\SchemaType\ShipmentServiceOptions->InternationalForms
+lib/SparkLib/UPS/Ship/Ship.php:485 PhanTypeMismatchArgumentProbablyReal Argument 1 ($ShipmentServiceOptions) is $ShipmentServiceOptions of type \SparkLib\UPS\Ship\SchemaType\ShipmentServiceOptionsType but \SparkLib\UPS\Ship\SchemaType\ShipmentType::setShipmentServiceOptions() takes \SparkLib\UPS\Ship\SchemaType\ShipmentServiceOptions (no real type) defined at lib/SparkLib/UPS/Ship/SchemaType/ShipmentType.php:722 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/UPS/Ship/Ship.php:500 PhanUndeclaredProperty Reference to undeclared property \SparkLib\UPS\Ship\SchemaType\ShipmentServiceOptions->InternationalForms
+lib/SparkLib/UPS/Ship/Ship.php:504 PhanUndeclaredProperty Reference to undeclared property \SparkLib\UPS\Ship\SchemaType\ShipmentServiceOptions->InternationalForms
+lib/SparkLib/UPS/Ship/Ship.php:513 PhanTypeMismatchArgument Argument 1 ($NegotiatedRatesIndicator) is true of type true but \SparkLib\UPS\Ship\SchemaType\RateInfoType::setNegotiatedRatesIndicator() takes string defined at lib/SparkLib/UPS/Ship/SchemaType/RateInfoType.php:56
+lib/SparkLib/UPS/Ship/Ship.php:521 PhanTypeMismatchArgument Argument 1 ($MonetaryValue) is ceil($this->_totalValue) of type float|int but \SparkLib\UPS\Ship\SchemaType\CurrencyMonetaryType::setMonetaryValue() takes string defined at lib/SparkLib/UPS/Ship/SchemaType/CurrencyMonetaryType.php:65
+lib/SparkLib/UPS/Ship/Ship.php:531 PhanTypeMismatchArgument Argument 1 ($Code) is $this->_shippingMethod of type null but \SparkLib\UPS\Ship\SchemaType\ServiceType::__construct() takes string defined at lib/SparkLib/UPS/Ship/SchemaType/ServiceType.php:28
+lib/SparkLib/UPS/Ship/Ship.php:536 PhanTypeMismatchArgument Argument 1 ($Package) is $this->_packages of type list<\SparkLib\UPS\Ship\SchemaType\PackageType> but \SparkLib\UPS\Ship\SchemaType\ShipmentType::setPackage() takes \SparkLib\UPS\Ship\SchemaType\PackageType defined at lib/SparkLib/UPS/Ship/SchemaType/ShipmentType.php:740
+lib/SparkLib/UPS/Ship/Ship.php:542 PhanUndeclaredProperty Reference to undeclared property \SparkLib\UPS\Ship\SchemaType\ShipmentServiceOptions->InternationalForms
+lib/SparkLib/UPS/Ship/Ship.php:575 PhanTypeExpectedObjectPropAccessButGotNull Expected an object instance when accessing an instance property, but saw an expression $s->detail with type null
+lib/SparkLib/UPS/StreetAddressValidate.php:32 PhanUndeclaredConstant Reference to undeclared constant \UPS_XAV_WSDL. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/UPS/StreetAddressValidate.php:33 PhanUndeclaredConstant Reference to undeclared constant \UPS_XAV_SERVER. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/UPS/StreetAddressValidate.php:34 PhanUndeclaredConstant Reference to undeclared constant \UPS_SCHEMA. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/UPS/StreetAddressValidate.php:35 PhanUndeclaredConstant Reference to undeclared constant \UPS_USERID. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/UPS/StreetAddressValidate.php:36 PhanUndeclaredConstant Reference to undeclared constant \UPS_USERPASS. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/UPS/StreetAddressValidate.php:37 PhanUndeclaredConstant Reference to undeclared constant \UPS_APIKEY. This will cause a thrown Error in php 8.0+.
+lib/SparkLib/UPS/StreetAddressValidate.php:146 PhanTypeMismatchArgumentProbablyReal Argument 1 ($RequestOption) is self::OPTION_BOTH of type 3 but \SparkLib\UPS\StreetAddressValidate\RequestType::__construct() takes string[] (no real type) defined at lib/SparkLib/UPS/StreetAddressValidate/RequestType.php:25 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/UPS/StreetAddressValidate.php:147 PhanTypeMismatchArgumentProbablyReal Argument 2 ($RegionalRequestIndicator) is null of type null but \SparkLib\UPS\StreetAddressValidate\XAVRequest::__construct() takes string (no real type) defined at lib/SparkLib/UPS/StreetAddressValidate/XAVRequest.php:39 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/UPS/StreetAddressValidate.php:147 PhanTypeMismatchArgumentProbablyReal Argument 3 ($MaximumCandidateListSize) is null of type null but \SparkLib\UPS\StreetAddressValidate\XAVRequest::__construct() takes string (no real type) defined at lib/SparkLib/UPS/StreetAddressValidate/XAVRequest.php:39 (the inferred real argument type has nothing in common with the parameter's phpdoc type)
+lib/SparkLib/UPS/StreetAddressValidate.php:176 PhanTypeExpectedObjectPropAccessButGotNull Expected an object instance when accessing an instance property, but saw an expression $s->detail with type null
+lib/SparkLib/Util/DateTime.php:110 PhanPossiblyUndeclaredVariable Variable $dateFrom is possibly undeclared
+lib/SparkLib/Util/DateTime.php:113 PhanPossiblyUndeclaredVariable Variable $dateFrom is possibly undeclared
+lib/SparkLib/Util/DateTime.php:126 PhanTypePossiblyInvalidDimOffset Possibly invalid offset 2 of $format of array type array{0:60|90|3600|5400|86400|129600|604800|907200|2628000|3942000|31536000|47304000|3153600000,1:'1 day'|'1 hour'|'1 minute'|'1 month'|'1 week'|'1 year'|'days'|'hours'|'just now'|'minutes'|'months'|'weeks'|'years',2?:60|3600|86400|604800|2628000|31536000}
+lib/SparkLib/Util/DateTime.php:141 PhanTypeMismatchDefault Default value for \SparkLib\Util\time $large_ts can't be false
+lib/SparkLib/Util/DateTime.php:141 PhanUndeclaredTypeParameter Parameter $large_ts has undeclared type \SparkLib\Util\time (Did you mean class \SparkLib\Util\Mime or class \SparkLib\Util\Timer)
+lib/SparkLib/Util/DateTime.php:141 PhanUndeclaredTypeParameter Parameter $small_ts has undeclared type \SparkLib\Util\time (Did you mean class \SparkLib\Util\Mime or class \SparkLib\Util\Timer)
+lib/SparkLib/Util/DateTime.php:146 PhanTypeInvalidRightOperandOfNumericOp Invalid operator: right operand of - is \SparkLib\Util\time (expected number)
+lib/SparkLib/Util/Mime.php:82 PhanUndeclaredStaticProperty Static property 'extnsionToMime' on \SparkLib\Util\Mime is undeclared (Did you mean expr::$extensionToMime)
+lib/SparkLib/Util/Text.php:4 PhanUnreferencedUseNormal Possibly zero references to use statement for classlike/namespace iconv (\iconv)
+lib/SparkLib/Util/Text.php:84 PhanTypeMismatchReturn Returning false of type false but remove_accents() is declared to return string
+lib/SparkLib/Util/Text.php:97 PhanDeprecatedFunctionInternal Call to deprecated function \utf8_encode()
+lib/SparkLib/Util/Timer.php:18 PhanTypeInvalidLeftOperandOfAdd Invalid operator: left operand of + is string (expected array or number)
+lib/SparkLib/Util/Timer.php:18 PhanTypeInvalidRightOperandOfAdd Invalid operator: right operand of + is string (expected array or number)
+lib/SparkLib/Util/Timer.php:26 PhanTypeInvalidLeftOperandOfAdd Invalid operator: left operand of + is string (expected array or number)
+lib/SparkLib/Util/Timer.php:26 PhanTypeInvalidRightOperandOfAdd Invalid operator: right operand of + is string (expected array or number)
+lib/SparkLib/Validator.php:49 PhanUndeclaredMethod Call to undeclared method \Exception::getErrors
+lib/SparkLib/Validator.php:56 PhanUndeclaredMethod Call to undeclared method \Exception::getErrors
+lib/SparkLib/ValidatorException.php:20 PhanPossiblyUndeclaredVariable Variable $error_message is possibly undeclared
+lib/SparkLib/ValidatorException.php:26 PhanUndeclaredTypeReturnType Return type of getErrors() is undeclared type \SparkLib\associative
+lib/SparkLib/ValidatorException.php:28 PhanTypeMismatchReturn Returning $this->_failures of type array but getErrors() is declared to return \SparkLib\associative
+lib/SparkLib/Xml/Builder.php:120 PhanUndeclaredClassMethod Call to method __construct from undeclared class \SparkLib\Xml\InvalidArgumentException (Did you mean class \InvalidArgumentException)
+lib/SparkLib/Xml/Builder.php:122 PhanTypeMismatchArgumentInternal Argument 1 ($value) is $kids of type \DOMDocument|\DOMNode|\DOMParentNode but \count() takes \Countable|\ResourceBundle|\SimpleXMLElement|array
+lib/SparkLib/jsonRPC/Client.php:91 PhanUndeclaredProperty Reference to undeclared property \SparkLib\jsonRPC\Client->proxy (Did you mean $proxy)
+lib/SparkLib/jsonRPC/Client.php:188 PhanTypeArraySuspiciousNullable Suspicious array access to $response of nullable type array|bool|float|int|null|string
+lib/SparkLib/jsonRPC/Client.php:189 PhanTypeArraySuspiciousNullable Suspicious array access to $response of nullable type array|bool|float|int|null|string
+lib/SparkLib/jsonRPC/Client.php:191 PhanTypeArraySuspiciousNullable Suspicious array access to $response of nullable type array|bool|float|int|null|string
+lib/SparkLib/jsonRPC/Client.php:198 PhanTypeMismatchReturnProbablyReal Returning true of type true but __call() is declared to return array (no real type) (the inferred real return type has nothing in common with the declared phpdoc return type)
+lib/SparkRecord.php:93 PhanUndeclaredStaticProperty Static property '_defaults' on \SparkRecord is undeclared
+lib/SparkRecord.php:129 PhanUndeclaredStaticProperty Static property '_tableKey' on \SparkRecord is undeclared
+lib/SparkRecord.php:130 PhanUndeclaredStaticProperty Static property '_tableKey' on \SparkRecord is undeclared
+lib/SparkRecord.php:131 PhanUndeclaredStaticProperty Static property '_tableKey' on \SparkRecord is undeclared
+lib/SparkRecord.php:162 PhanUndeclaredStaticProperty Static property '_tableKey' on \SparkRecord is undeclared
+lib/SparkRecord.php:176 PhanTypeMismatchReturn Returning $value of type  but __set() is declared to return void
+lib/SparkRecord.php:186 PhanTypeMismatchReturn Returning $value of type  but __set() is declared to return void
+lib/SparkRecord.php:224 PhanUndeclaredStaticProperty Static property '_tableKey' on \SparkRecord is undeclared
+lib/SparkRecord.php:293 PhanTypeMismatchReturnProbablyReal Returning new SparkFriendFinder($class, $key, $this->_tableId) of type \SparkFriendFinder but __get() is declared to return \SparkFinder|\SparkRecord|bool|float|int|string (no real type) (the inferred real return type has nothing in common with the declared phpdoc return type)
+lib/SparkRecord.php:402 PhanUndeclaredStaticProperty Static property '_tableKey' on \SparkRecord is undeclared
+lib/SparkRecord.php:412 PhanUndeclaredStaticProperty Static property '_tableKey' on \SparkRecord is undeclared
+lib/SparkRecord.php:431 PhanCompatiblePHP7 Expression may not be PHP 7 compatible
+lib/SparkRecord.php:453 PhanUndeclaredStaticProperty Static property '_tableName' on \SparkRecord is undeclared
+lib/SparkRecord.php:458 PhanUndeclaredStaticProperty Static property '_tableKey' on \SparkRecord is undeclared
+lib/SparkRecord.php:472 PhanUndeclaredStaticProperty Static property '_baseName' on \SparkRecord is undeclared
+lib/SparkRecord.php:473 PhanUndeclaredStaticProperty Static property '_tableName' on \SparkRecord is undeclared
+lib/SparkRecord.php:474 PhanUndeclaredStaticProperty Static property '_tableKey' on \SparkRecord is undeclared
+lib/SparkRecord.php:475 PhanUndeclaredStaticProperty Static property '_defaults' on \SparkRecord is undeclared
+lib/SparkRecord.php:476 PhanUndeclaredStaticProperty Static property '_types' on \SparkRecord is undeclared
+lib/SparkRecord.php:480 PhanUndeclaredStaticProperty Static property '_types' on \SparkRecord is undeclared
+lib/SparkRecord.php:662 PhanUndeclaredClassMethod Call to method getInstance from undeclared class \SparkCache
+lib/SparkRecord.php:671 PhanUndeclaredClassMethod Call to method getInstance from undeclared class \SparkCache
+lib/SparkRecord.php:679 PhanUndeclaredConstant Reference to undeclared constant \MEMCACHED_ENABLED. This will cause a thrown Error in php 8.0+.
+lib/SparkRecord.php:681 PhanUndeclaredClassMethod Call to method getInstance from undeclared class \SparkCache
+lib/SparkRecord.php:728 PhanUndeclaredStaticProperty Static property '_tableName' on \SparkRecord is undeclared
+lib/SparkRecord.php:729 PhanUndeclaredStaticProperty Static property '_tableKey' on \SparkRecord is undeclared
+lib/SparkRecord.php:784 PhanUndeclaredStaticProperty Static property '_tableKey' on \SparkRecord is undeclared
+lib/SparkRecord.php:822 PhanDeprecatedFunctionInternal Call to deprecated function \utf8_encode()
+lib/SparkRecord.php:834 PhanUndeclaredClassMethod Call to method getInstance from undeclared class \ModificationsDBI
+lib/SparkRecord.php:835 PhanUndeclaredStaticProperty Static property '_tableName' on \SparkRecord is undeclared
+lib/SparkRecord.php:851 PhanUndeclaredClassMethod Call to method __construct from undeclared class \MongoDB\BSON\UTCDateTime (Did you mean to configure a stub with https://github.com/phan/phan/wiki/How-To-Use-Stubs#internal-stubs or to enable the extension providing the class.)
+lib/SparkRecord.php:913 PhanUndeclaredStaticProperty Static property '_tableName' on \SparkRecord is undeclared
+lib/SparkRecord.php:914 PhanUndeclaredStaticProperty Static property '_tableKey' on \SparkRecord is undeclared
+lib/SparkRecord.php:966 PhanUndeclaredStaticProperty Static property '_defaults' on \SparkRecord is undeclared
+lib/SparkRecord.php:971 PhanUndeclaredStaticProperty Static property '_tableKey' on \SparkRecord is undeclared
+lib/SparkRecord.php:972 PhanUndeclaredStaticProperty Static property '_tableKey' on \SparkRecord is undeclared
+lib/SparkRecord.php:976 PhanUndeclaredStaticProperty Static property '_tableName' on \SparkRecord is undeclared
+lib/SparkRecord.php:1039 PhanUndeclaredStaticProperty Static property '_tableKey' on \SparkRecord is undeclared
+lib/SparkRecord.php:1092 PhanUndeclaredStaticProperty Static property '_nullable' on \SparkRecord is undeclared
+lib/SparkRecord.php:1094 PhanUndeclaredStaticProperty Static property '_tableName' on \SparkRecord is undeclared
+lib/SparkRecord.php:1123 PhanUndeclaredStaticProperty Static property '_tableKey' on \SparkRecord is undeclared
+lib/SparkRecord.php:1124 PhanUndeclaredStaticProperty Static property '_tableName' on \SparkRecord is undeclared
+lib/SparkRecord.php:1213 PhanUndeclaredClassMethod Call to method validDino from undeclared class \Spark\Notify
+lib/SparkRecord.php:1222 PhanUndeclaredClassMethod Call to method emit from undeclared class \Spark\Notify
+lib/SparkRecord.php:1251 PhanPossiblyUndeclaredVariable Variable $fields is possibly undeclared
+lib/SparkRecord.php:1251 PhanTypeMismatchArgumentInternalReal Argument 2 ($array) is ', ' of type '\x2c ' but \implode() takes string (real type ?array)
+lib/SparkRecord.php:1260 PhanCompatibleImplodeOrder In php 7.4, passing glue string after the array is deprecated for \implode(). Should this swap the parameters of type associative-array<int,string> and string?
+lib/SparkRecord.php:1312 PhanUndeclaredStaticProperty Static property '_tableKey' on \SparkRecord is undeclared
+lib/SparkRecord.php:1323 PhanUndeclaredStaticProperty Static property '_tableKey' on \SparkRecord is undeclared
